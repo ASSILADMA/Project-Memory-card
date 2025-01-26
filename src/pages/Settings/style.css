@@ -1,0 +1,63 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  .card-count-selection {
+    margin-bottom: 20px;
+  }
+  
+  .card-count-selection button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .card-count-selection button.selected {
+    background-color: rgba(255, 255, 255, 0.715);
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .color-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .color-selection label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .color-selection input[type="color"] {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .back-button:hover {
+    font-weight: bold;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+  }
